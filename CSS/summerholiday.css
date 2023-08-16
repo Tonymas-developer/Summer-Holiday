@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    background-color: #009688;
+    padding: 15px;
+}
+
+header h1{
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+.container{
+    margin:20px auto;
+    width: 73%;
+    overflow: hidden;
+}
+
+.row{
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.place{
+    width: 33.4%;
+    float: left;
+    /* width: auto; */
+    margin-right: 16px;
+}
+
+.desc{
+    width: 62%;
+    float: left;
+}
+
+.desc p{
+    line-height: 1.4;
+    word-spacing: 3px;
+}
+
+.desc h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0;
+}
